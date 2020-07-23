@@ -12,7 +12,11 @@
     &:hover,
     &:focus {
 
-        background-color: #f3efdd;
+        background-color: #c7c4b5;
 
     }
+}
+
+button:focus {
+    outline: 0;
 }

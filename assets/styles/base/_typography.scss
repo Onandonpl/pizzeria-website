@@ -21,10 +21,12 @@ h6 {
   @include font-roboto;
 
 }
-h4{
+
+h4 {
   font-size: 100%;
 
 }
+
 h3 {
   font-size: 1.4vh;
 }
@@ -40,5 +42,4 @@ a {
   color: $light-grey;
   @include font-roboto;
   text-decoration: none;
-
 }
