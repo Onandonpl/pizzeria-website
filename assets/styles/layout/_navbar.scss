@@ -19,6 +19,9 @@
         text-decoration: none;
         margin: 0 2vw;
 
+        &:focus {
+            outline: 0;
+        }
 
         &::after,
         &::before {
