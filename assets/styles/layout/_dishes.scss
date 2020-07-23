@@ -1,0 +1,49 @@
+.dishes {
+    width: 90%;
+    margin: auto;
+
+    &__menu {
+        width: 100%;
+        padding: 15px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__content {
+
+
+        .dish {
+            width: 100%;
+            display: flex;
+            border-bottom: 1px solid $black;
+            padding: 5px 0;
+
+            &__description {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__descPL,
+            &__descENG {
+                padding-bottom: 2px;
+
+            }
+
+            &__info {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            &__padding {
+                padding: 10px;
+            }
+        }
+    }
+}

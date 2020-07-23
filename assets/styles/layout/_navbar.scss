@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid $navbar-border;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        position: relative;
+        text-decoration: none;
+        margin: 0 2vw;
+
+
+        &::after,
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: $red-italy;
+            transition: linear 0.1s;
+            opacity: 0;
+        }
+
+        &:hover,
+        &:focus {
+
+            &::after,
+            &::before {
+                opacity: 1;
+                transform: translateY(5px);
+
+            }
+        }
+    }
+}

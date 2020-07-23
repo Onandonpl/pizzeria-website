@@ -1,0 +1,44 @@
+p {
+  color: $dark-grey;
+  font-size: 1.8vh;
+
+}
+
+
+
+h1 {
+  font-size: 10vh;
+  color: $white;
+  @include font-Yellowtail;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-grey;
+  @include font-roboto;
+
+}
+h4{
+  font-size: 100%;
+
+}
+h3 {
+  font-size: 1.4vh;
+}
+
+h2 {
+  font-size: 3vh;
+
+}
+
+a {
+  font-size: 2vh;
+  font-weight: bold;
+  color: $light-grey;
+  @include font-roboto;
+  text-decoration: none;
+
+}

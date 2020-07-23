@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Pizza Pasta & Basta</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="fixed-img"></div>
+        <h1 class="header__name">
+          Pizza Pasta & Basta
+        </h1>
+        <h2 class="header__description">
+          <div class="colors">
+            <div class="green"></div>
+            <div class="white"></div>
+            <div class="red"></div>
+          </div>
+        </h2>
+      </header>
+
+      <menu class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#menu" title="menu">MENU</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about" title="about">O NAS</a>
+          </li>
+
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact" title="contact">KONTAKT</a>
+          </li>
+        </ul>
+      </menu>
+      <div class="dishes" id="menu">
+        <div class="dishes__menu">
+          <button id="starters" class="startersBtn dishBtn">
+            <p>Przystawki</p>
+          </button>
+          <button id="salads" class="saladBtn dishBtn"><p>Sałatki</p></button>
+          <button id="soup" class="soupBtn dishBtn"><p>Zupy</p></button>
+          <button id="macaroni" class="macaroniBtn dishBtn">
+            <p>Makarony</p>
+          </button>
+          <button id="pizza" class="pizzaBtn dishBtn"><p>Pizza</p></button>
+          <button id="bambini" class="forkidsBtn dishBtn">
+            <p>Dla dzieci</p>
+          </button>
+          <button id="desserts" class="dessertsBtn dishBtn">
+            <p>Desery</p>
+          </button>
+          <button id="wine" class="wineBtn dishBtn"><p>Wino</p></button>
+          <button id="beer" class="beerBtn dishBtn"><p>Piwo</p></button>
+          <button id="cold" class="coldBtn dishBtn"><p>Napoje</p></button>
+          <button id="hot" class="hotBtn dishBtn"><p>Kawa / Herbata</p></button>
+        </div>
+        <div class="dishes__content"></div>
+      </div>
+
+      <div class="about" id="about">
+        <div class="about__title">
+          <h4>O NAS</h4>
+        </div>
+        <div class="about__content">
+         
+          <div class="about__description">
+            Pizza Pasta & Basta - Czuj się naszym gościem jesteśmy miejscem
+            gdzie włoska kuchnia spotyka młodego ducha pełnego pasji do
+            gotowania.
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="contact__title">
+          <h4>KONTAKT</h4>
+        </div>
+        <div class="contact__content">
+          <div class="contact__info contact__box">
+            <div class="info__title">DANE KONTAKTOWE</div>
+            <div class="info__mail">ppb@ppb.com</div>
+            <div class="info__adress">Aleja Grunwaldzka 415 80-309 Gdańsk</div>
+          </div>
+          <div class="contact__hours contact__box">
+            <div class="hours__title">GODZINY OTWARCIA</div>
+            <div class="hours__ponpt">Poniedziałek - Piątek: 12-20</div>
+            <div class="hours__weekend">Sobota - Niedziela: 12-20</div>
+          </div>
+          <div class="contact__media contact__box">
+            <div class="media__title">POLUB NAS</div>
+            <div class="media__social">
+              <a
+                href="https://www.facebook.com/Pizza-pasta-basta-278942949312857/"
+                ><i
+                  class="fa fa-facebook-square icon-large"
+                  aria-hidden="true"
+                ></i></a
+              ><a href="http://"
+                ><i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://use.fontawesome.com/208a93348f.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+  </body>
+</html>
